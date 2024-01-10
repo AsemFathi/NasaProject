@@ -2,7 +2,7 @@
 
 ## Description
 
-I've been curious about the back-end and wanted to learn more about it. At the same time, I want to appreciate and practice JavaScript more. I stumbled upon Node.js and heard about its capabilities and tools like Express.js. The course I decided to learn more about Node.js was Complete Node.js Developer: Zero to Mastery, where the project stems from (see Credits for more information). Despite this project being a full-stack application, the focus is developing the server component and connecting the front end to the back end.
+I've been curious about the back-end and wanted to learn more about it. At the same time, I want to appreciate and practice JavaScript more. I stumbled upon Node.js and heard about its capabilities and tools like Express.js. The course I decided to learn more about Node.js was Complete Node.js Developer: Zero to Mastery, where the project stems from (see [Credits](https://github.com/AsemFathi/NasaProject/blob/main/README.md#credites) for more information). Despite this project being a full-stack application, the focus is developing the server component and connecting the front end to the back end.
 
 The project goal: to build a Node API that allows users to schedule missions with the destination being a habitable Kepler Exoplanet.
 
