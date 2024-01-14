@@ -1,11 +1,9 @@
 const mongoose = require('mongoose');
 
-
-const MONGO_URL = 'mongodb+srv://nasa-api:t4Z7hy2csTsMkLPv@cluster0.69mrmty.mongodb.net/nasa?retryWrites=true&w=majority'
-
+const MONGO_URL = 'mongodb+srv://nasa-api:t4Z7hy2csTsMkLPv@cluster0.69mrmty.mongodb.net/nasa?retryWrites=true&w=majority';
 
 mongoose.connection.once('open', () => {
-    console.log('MongoDB is ready')
+    console.log('MongoDB is ready');
 });
 
 mongoose.connection.on('error', (err) => {
@@ -15,6 +13,7 @@ mongoose.connection.on('error', (err) => {
 async function mongoConnect() {
     await mongoose.connect(MONGO_URL);
 }
+
 async function mongoDisconnect() {
     await mongoose.disconnect();
 }
@@ -22,4 +21,4 @@ async function mongoDisconnect() {
 module.exports = {
     mongoConnect,
     mongoDisconnect,
-};
+}
