@@ -15,7 +15,7 @@ So far, I've learned
 
 
 ## Architectural Diagram
-![alt text](https://github.com/AsemFathi/NasaProject/blob/main/NasaProjectArchitecture/NasaProjectArchi.png)
+![alt text](https://github.com/AsemFathi/NasaProject/blob/main/NasaProjectArchitecture/NasaProjectArchitecture.png)
 
 Additionally, the application was designed using the Model-View-Controller (MVC) pattern.
 
