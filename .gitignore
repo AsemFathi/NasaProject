@@ -17,3 +17,4 @@ server/public/sound/warning.mp3
 server/public/static/js/main.085130ba.js
 server/public/static/js/main.085130ba.js.LICENSE.txt
 server/public/static/js/main.085130ba.js.map
+server/.env
