@@ -6,10 +6,10 @@ on:
     branches: [main]
 jobs:
   build:
-    env: 
+    env:
       CI: true
     strategy:
-      matrix: 
+      matrix:
         node-version: [14.x, 16.x]
     runs-on: ubuntu-latest
     steps:
@@ -20,4 +20,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm install
       - run: npm run build --prefix client
-      -run: npm test
+      - run: npm test
